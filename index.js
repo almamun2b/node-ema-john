@@ -19,7 +19,7 @@ async function run() {
     try {
         await client.connect();
 
-        const database = client.db("online-shop");
+        const database = client.db("ema-john");
         const productCollection = database.collection("products");
         const orderCollection = database.collection("orders");
 
